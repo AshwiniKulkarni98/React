@@ -1,7 +1,10 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
+
 const heading = React.createElement("h1",{},"Hello world from the React");
 console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
+root.render(headings);
 console.log(root);
 
 //this empty tag here is which gives attributes to our tags like heading , or somethings like that 
@@ -17,9 +20,13 @@ console.log(root);
 </div> */}
 
 // The solution for this complex thing is
- const headings = React.createElement("div",{id : "parent"},
- React.createElement("div",{id : "child"},
- [React.createElement("h1",{},"HELLO"), React.createElement("h2",{},"React")]
- )
-)
-root.render(headings);
+//  const headings = React.createElement("div",{id : "parent"},
+//  React.createElement("div",{id : "child"},
+//  [React.createElement("h1",{},"HELLO"), React.createElement("h2",{},"React")]
+//  )
+// )
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(headings);
+
+// basially package .json file manages all the configurations which is done using Npms,
+// like which dependency we have installed , what is the versin of that so on
