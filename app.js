@@ -4,9 +4,10 @@ import ReactDOM from "react-dom/client"
 const heading = React.createElement("h1",{},"Hello world from the React");
 console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(headings);
+root.render(jsxHeading);
 console.log(root);
 
+const jsxHeading = <h1>hello ji</h1>
 //this empty tag here is which gives attributes to our tags like heading , or somethings like that 
 // we can pass id="header" so that the content acts as like heading
 
