@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
 
-const heading = React.createElement("h1",{},"Hello world from the React");
-console.log(heading);
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxHeading);
-console.log(root);
+// const heading = React.createElement("h1",{},"Hello world from the React");
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(jsxHeading);
+// console.log(root);
 
-const jsxHeading = <h1>hello ji</h1>
+
 //this empty tag here is which gives attributes to our tags like heading , or somethings like that 
 // we can pass id="header" so that the content acts as like heading
 
@@ -31,3 +30,28 @@ const jsxHeading = <h1>hello ji</h1>
 
 // basially package .json file manages all the configurations which is done using Npms,
 // like which dependency we have installed , what is the versin of that so on
+
+
+//JSX element
+const HeadingComponent = ()=>{
+   return (
+    <h1>
+      {/* {head} */}
+      Hello yaar
+    </h1>
+      )
+   }
+   
+const head =(
+<div>
+  <h3>{<HeadingComponent/>}</h3>
+<h1>React Sessions</h1>
+<h2>Hello this is practice session 😻 </h2>
+</div>
+)
+
+//react component
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(head)
+// root.render(<HeadingComponent/>)
