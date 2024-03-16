@@ -8,7 +8,7 @@ const jsxListing = <h1 id="heading">Hello Javascript</h1>
 const HeadingComp =()=>{
   return  <h1>This is headingComp</h1>
 }
-const a ="aba" // this s a JS and u can put the JS inside the react by giving the {flower braces}
+const a ="ab" // this s a JS and u can put the JS inside the react by giving the {flower braces}
 
 //And is called as component composition - means binding multiple components together
 

@@ -45,7 +45,7 @@ const HeadingComponent = ()=>{
 const head =(
 <div>
   <h3>{<HeadingComponent/>}</h3>
-<h1>React Sessions</h1>
+<h1>React Sessio</h1>
 <h2>Hello this is practice session 😻 </h2>
 </div>
 )
