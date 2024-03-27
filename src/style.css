@@ -49,3 +49,22 @@
 .restarunts>* {
   margin: 10px;
 }
+.card-type {
+  margin: 15px;
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+  border: dashed;
+  display: flex;
+  /* color: rebeccapurple; */
+  background-color: azure;
+}
+.shimmer-container {
+  /* width: 200px;
+  height: 300px;
+  border-style: dashed; */
+  /* color: red; */
+  display: flex;
+  margin: 15px;
+
+}
