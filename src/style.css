@@ -4,39 +4,48 @@
   border-style: dashed;
   height: 150px;
 }
+
 .logo {
   width: 150px;
 }
+
 .menu {
   display: flex;
   margin-left: -10px;
   list-style-type: none;
 }
-.menu > * {
+
+.menu>* {
   margin: 10px;
 }
+
 .resName {
   width: 200px;
   height: 300px;
   padding: 10px;
   word-wrap: break-word;
 }
+
 .resName:hover {
   border-style: dashed;
   cursor: pointer;
 }
+
 .search {
   padding: 10px;
 }
+
 .resLogoClass {
   width: 100px;
 }
+
 .restarunts {
   display: flex;
   flex-wrap: wrap;
   margin: 15px;
   justify-content: space-around;
 }
-.restarunts > * {
+
+.restarunts>* {
   margin: 10px;
 }
